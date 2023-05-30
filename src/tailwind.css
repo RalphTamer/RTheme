@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    max-width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@screen sm {
+  /* .sm\:scroller {
+      @apply scroller
+   } */
+
+  .sm\:container {
+    @apply container;
+  }
+}
+
+@screen md {
+  /* .md\:scroller {
+      @apply scroller
+   } */
+
+  .md\:container {
+    @apply container;
+  }
+}
+
+@screen lg {
+  /* .lg\:scroller {
+      @apply scroller
+   } */
+
+  .lg\:container {
+    @apply container;
+  }
+}
+
+@screen xl {
+  /* .xl\:scroller {
+      @apply scroller
+   } */
+
+  .xl\:container {
+    @apply container;
+  }
+}
